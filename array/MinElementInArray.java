@@ -4,7 +4,7 @@ public class MinElementInArray {
     public static void main(String[] args) {
         int[] array = {5, 3, 9, 1, 7, 2, 8, 4, 6};
         // Предполагаем, что первый элемент массива является минимальным
-        int min = array[0];
+        int min = Integer.MAX_VALUE;
         // Проходим по всем элементам массива
         for (int i = 1; i < array.length; i++) {
             // Если текущий элемент меньше текущего минимального, обновляем минимальный элемент
